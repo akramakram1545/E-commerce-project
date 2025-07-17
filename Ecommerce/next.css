@@ -1,0 +1,186 @@
+.fa-star{
+    color:gray;
+}
+.shoe1{
+    text-align: center;
+    border-radius: brown;
+    
+}
+.red{
+    
+    padding-top: 10px;
+    text-align: center;
+    
+}
+.black{
+    background-color: black;
+    color: gray;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 40px;
+
+}
+
+.social-icons a{
+    text-decoration: none;
+    color: gray;
+    transition: transform 0.5s;
+    padding: 10px;
+    
+}
+.social-icons a:hover{
+    color:white;
+    /* transform: translateY(-5px); */
+}
+
+
+
+.black01{
+    
+    background-color: black;
+    color: gray;
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.flex-container{
+    
+    height: 300px;
+    /* border-color: white; */
+    padding-top: 10px;
+    padding-left: 100px;
+   /* text-align: center; */
+   
+    
+   
+}
+.flex-container p a{
+    text-decoration: none;
+    color: gray;
+    
+}
+.wid button a{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    margin-top: 10px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+}
+.boldd{
+    font-size: larger;
+    padding-top: 10px;
+}
+.wwa{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.wla{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.wtf{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bold2{
+    font-size: larger;
+    padding-top: 10px;
+}
+
+.sd{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.table1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.table2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bold3{
+    font-size: larger;
+    padding-top: 10px;
+}
+.bold4{
+    font-size: larger;
+    padding-top: 10px;
+}    
+.bold5{
+    font-size: larger;
+    padding-top: 10px;
+}    
+.bold6{
+    font-size: larger;
+    padding-top: 10px;
+} 
+.ctr1{
+    padding-top: 10px;
+} 
+.bold7{
+    font-size: larger;
+    padding-top: 10px;
+    text-align: center;
+} 
+.buynow1{
+    padding-bottom: 20px;
+}
+.right{
+    margin-top: 60px;
+    margin-right: 40px;
+    float:right;
+}
+.left{
+    padding-top: 40px;
+    margin-left: 20%;
+}
+.center{
+    
+    padding-right:30px;
+}
+.center button a{
+    text-decoration: none;
+    color: black;
+
+}
+.center button{
+    background-color: aqua;
+}
+.color{
+    background-color:yellow;
+    color: black;
+}
+.fix{
+    text-align: center;
+    padding-top: 20%;
+}
+@media screen and (max-width:390px){
+  
+ 
+  .flex-container{
+    
+    height: 300px;
+    border-color: white;
+    padding-top: 10px;
+    /* padding-left: 20px; */
+   /* text-align: center; */
+   /* display: flex; */
+   
+   
+    
+   
+}   
+
+    
+    
+}
+
+  

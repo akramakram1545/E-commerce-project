@@ -1,0 +1,441 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.yellow{
+    margin-top: 50px;
+}
+/* Fixed Header */
+.container {
+    
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 100px;
+  background-color: yellow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  flex-wrap: wrap; /* allows wrapping on small screens */
+}
+
+/* Left Side - Company Name */
+.main {
+  flex: 1 1 200px; /* grow and shrink */
+  min-width: 150px;
+}
+
+.main h4 {
+  font-size: 24px;
+  color: #000;
+  white-space: nowrap;
+}
+
+/* Right Side - Navigation */
+.sub {
+  flex: 1 1 300px; /* grow and shrink */
+  display: flex;
+  justify-content: flex-end;
+  min-width: 200px;
+}
+
+.sub nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding: 40px;
+}
+
+.sub nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.sub nav ul li a:hover {
+  color: #007BFF;
+}
+
+/* Push page content below fixed header */
+body {
+  padding-top: 100px;
+}
+
+/* Content section below header */
+.yellow {
+  background-color: whitesmoke;
+  padding: 20px;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+ 
+
+
+.home01{
+    background-image: url(nike0\ 1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-left: 50px;
+     padding-top:110px;
+    font-size: large;
+    font-size: 20px;
+}
+.home01 p{
+    font-style: oblique;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+.home01 h1{
+    margin-bottom: 50px;
+
+}
+.home01 iframe{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+}
+.color{
+    color: blueviolet;
+}
+.product{
+    text-align: center;
+    padding-top: 40px;
+
+}
+.images p{
+    font-size: 17px;
+}
+.images button a{
+    text-decoration: none;
+    color: black;
+}
+.pdt button a{
+    text-decoration: none;
+    color: black;
+}
+.pdt p{
+    font-size: 17px;
+
+}
+
+/* ----------------------------about----------------------------- */
+.about h1{
+   text-align: center;
+   margin-top: 10px;
+   padding-top: 5px;
+   padding-bottom: 20px;
+}
+.about{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.about p{
+    font-size: 20px;
+}
+
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: auto;
+    margin-top: 20px;
+    gap: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    animation: fadeInUp 1s ease-out;
+    
+}
+.pdt{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: auto;
+    margin-top:20px ;
+    gap: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    animation: fadeInUp 1s ease-out;
+}
+.images img{
+     border-radius: 10px;
+     box-shadow: 0 0 10px black;
+}
+.pdt img{
+    border-radius: 10px;
+}
+.images button{
+    width: 300px;
+    cursor:pointer;
+ 
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    
+}
+
+ .images button:hover{
+   border-radius: 10px;
+     box-shadow: 0 0 10px black;
+ }
+ .images img:hover{
+     border-radius: 10px; 
+    box-shadow: 0 0 20px black;
+
+ }
+.images h3{
+    text-align: center;
+    padding-top: 5px;
+}
+.images p{
+    padding-top: 5px;
+   
+}
+.pdt button{
+    width: 300px;
+    cursor:pointer;
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.pdt img:hover{
+    border-radius: 10px; 
+    box-shadow: 0 0 10px black;
+}
+.pdt button:hover{
+     border-radius: 10px; 
+    box-shadow: 0 0 20px black;
+}
+.pdt h3{
+    text-align: center;
+    padding-top: 5px;
+}
+.pdt p{
+    padding-top: 5px;
+}
+
+/* --------------------------------Reviews----------------------------- */
+
+.Reviews{
+    text-align: center;
+    
+}
+.Reviews h1{
+    color: navy;
+}
+.Reviews p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+
+.flex-box{
+    width: 400px;
+    height: 340px;
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.flex-box h2{
+    color: black;
+}
+.contact{
+    width: 100%;
+    height: 230px;
+    background-color: gray;
+    color: white;
+    margin-top: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+.contact h3{
+    padding-top: 10px;
+}
+.contact p{
+    font-size: 18px;
+}
+.fa-star{
+    color:orange;
+    border-radius:5px black;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fa-star-half-stroke{
+    color:orange;
+    border-radius:5px black;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* ---------------------mediaquery----------------------- */
+    
+
+
+
+
+
+
+@media screen and (max-width:400px){
+
+.main h4{
+    font-size: 30px;
+    color: black;
+    padding-top: 25px;
+}
+.home01 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home01 p{
+    margin-right: 20px;
+}
+ .main h4{
+        text-align: center;
+ }
+ .yellow {
+    margin-top: 70px;
+ }
+ .product img{
+    margin-top: 50px;
+ }
+.flex-box{
+    width: 370px;
+    height: 350px;
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.flex-box p{
+    font-size: 16px;
+}
+.contact{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    color: white;
+    margin-top: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+}
+
+
+
+/* -----------------------media----------------------- */
+ 
+@media screen and (max-width: 900px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .main h4 {
+    font-size: 20px;
+  }
+  .sub nav ul{
+    gap: 15px;
+  }
+
+ 
+}
+
+@media screen and (max-width:550px){
+    .hide{
+        display: block;
+        font-size: 25px;
+    }
+    .main h4{
+    font-size: 25px;
+    color: black;
+    padding-top: 25px;
+    
+}
+    nav ul {
+        background: yellow;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 70vh;
+        padding-top: 5px;
+        z-index: 2;
+        transition: right 0.5s;
+
+    }
+   
+  
+    nav ul li{
+        
+        display: block; 
+        margin: 25px;
+    }
+    nav ul .hide{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        cursor: pointer;
+    }
+    .home01 iframe{
+        width: 300px;
+        height: 300px;
+        margin-top: 10%;
+    }
+    .home01{
+        background-image: none;
+    }
+   
+     .flex-box{
+        width: 350px;
+        height: 320px;
+     }
+    
+}
+
+@media screen and (min-width:550px) {
+    .hide{
+        display: none;
+    }
+
+
+    
+}
